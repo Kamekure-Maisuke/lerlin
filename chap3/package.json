@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon server.js"
   },
@@ -11,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "koa": "^2.13.1",
-    "koa-router": "^10.1.1"
+    "koa-ejs": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "node-fetch": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
